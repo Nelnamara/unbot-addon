@@ -1,10 +1,10 @@
 ## Interface: 30300
 ## Title: UnBot
-## Title-zhCN: |cff0000ffUnWOW Playerbot Controller|r
-## Title-zhTW: |cff0000ffUnWOW Playerbot Controller|r
+## Title-zhCN: |cff0000ffUnWOW 机器人控制器|r
+## Title-zhTW: |cff0000ffUnWOW 机器人控制器|r
 ## Notes: UnWOW Playerbot Controller
-## Notes-zhCN: UnWOW Playerbot Controller（This plug-in is only for random and account Playerbots. NPC Playerbots for basic support.，Compatible with WotLK V 3.3.5 for Level 80，Lvl 60 and 70 Will not be considered.）
-## Notes-zhTW: UnWOW Playerbot Controller（This plug-in is only for random and account Playerbots，NPC Playerbots for basic support.，Compatible with WotLK V 3.3.5 for Level 80，Lvl 60 and 70 Will not be considered.)
+## Notes-zhCN: UnWOW 机器人控制器（本插件只针对UnWOW的随机和帐号机器人，NPC机器人进行简单支持，且只支持335 for 80级版本，60和70级版本不考虑）
+## Notes-zhTW: UnWOW 机器人控制器（本插件只针对UnWOW的随机和帐号机器人，NPC机器人进行简单支持，且只支持335 for 80级版本，60和70级版本不考虑）
 ## Dependencies: YssBossLoot
 ## Version: 0.4
 ## Author: GPD
