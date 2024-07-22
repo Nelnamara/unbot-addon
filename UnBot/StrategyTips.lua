@@ -34,7 +34,7 @@ function InitializeStrategy()
 		[28] = {"rfire","Fire Resistance","The bot will use Fire Resistance Aura while in combat. (Paladin only)"},
 		[29] = {"barmor","Devotion Aura","The bot will use Devotion Aura while in combat. (Paladin only)"},
 		[30] = {"bspeed","Crusader Aura","The bot will use Crusader Aura while in combat. (Paladin only)"},
-		[31] = {"rnature","自然抗性光环","机器人在战斗中开启自然抗性光环。(针对猎人机器人)"}, -- Needs correction
+		[31] = {"rnature","Nature Resistance","Robots turn on nature resistance in battle",(Targeting hunter Playerbots)"}, -- Needs correction
 		[32] = {"bhealth","Buff (Health)","The bot will use buffs that increases health while in combat."}, -- ???
 		[33] = {"bmana","Buff (Mana)","The bot will use buffs that increases mana while not in combat."}, -- ???
 		[34] = {"bdps","Buff (Damage)","The bot will use buffs that increases damage while not in combat."}, -- ???
