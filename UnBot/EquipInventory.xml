@@ -109,7 +109,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentLabel" font="Fonts\blei00d.TTF" text="装备穿戴选择">
+            <FontString name="$parentLabel" font="Fonts\blei00d.TTF" text="Equipment Options">
               <Anchors>
                 <Anchor point="TOPLEFT" />
                 <Anchor point="BOTTOMRIGHT" />
