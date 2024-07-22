@@ -481,7 +481,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,2, "Dismiss NPC Playerbots", "Dismiss selected NPC Playerbots.", "Choosing yourself will disband all NPC Playerbots.",".npcbot remove");
+			NPCCommand_OnEnter(self,2,"Dismiss NPC Playerbots","Dismiss selected NPC Playerbots.","Choosing yourself will disband all NPC Playerbots.",".npcbot remove");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -520,7 +520,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,2, "Reset NPC Playerbot", "Reset selected NPC Playerbots", "Selecting yourself will reset all NPC robots",".npcbot reset");
+			NPCCommand_OnEnter(self,2,"Reset NPC Playerbot","Reset selected NPC Playerbots","Selecting yourself will reset all NPC robots",".npcbot reset");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -559,7 +559,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,2, "NPC Playerbot Stays", "Let all NPC Playerbots in the party stay in place.",".npcbot command stay");
+			NPCCommand_OnEnter(self,2,"NPC Playerbot Stays","Let all NPC Playerbots in the party stay in place.",".npcbot command stay");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -598,7 +598,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,2, "NPC Playerbot Follow", "Entire Party Follow",".npcbot command follow");
+			NPCCommand_OnEnter(self,2,"NPC Playerbot Follow","Entire Party Follow",".npcbot command follow");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
@@ -637,7 +637,7 @@
         </Anchors>
         <Scripts>
 		  <OnEnter>
-			NPCCommand_OnEnter(self,2, "NPC Playerbot Resurrection", "After everyone leaves the battle."，"Resurrect dead NPC Playerbots in the party。",".npcbot revive");
+			NPCCommand_OnEnter(self,2, "NPC Playerbot Resurrection","After everyone leaves the battle.","Resurrect dead NPC Playerbots in the party.",".npcbot revive");
 		  </OnEnter>
 		  <OnLeave>
 			GameTooltip:Hide();
