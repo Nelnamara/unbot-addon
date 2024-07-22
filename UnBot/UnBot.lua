@@ -223,7 +223,7 @@ function ResetCommandToAction(self,index,save)
 	groupButton.Icon:SetTexture(GetIconPathByIndex(UnBotIconFiles[index]));
 	groupButton.comIndex = index;
 	groupButton.Icon:Show();
-	--DisplayInfomation("应用 "..tostring(index).." 号命令到组按钮 "..tostring(self.groupIndex));
+	--DisplayInfomation("Application"..tostring(index).."Command to Party."..tostring(self.groupIndex));
 
 	if (save == true) then
 		UnBotCommandBarConfig[self.groupIndex] = index;
@@ -371,7 +371,7 @@ function SubCommandButton_OnLeftClick(index)
 				return;
 			end
 			-- if (not IsRealPartyLeader()) then
-			-- 	DisplayInfomation("你当前不是队伍领袖。");
+			-- 	DisplayInfomation("You are not the party leader.");
 			-- else
 			SendChatMessage(UnBotExecuteCommand[index], "WHISPER", nil, targetName);
 			-- end
@@ -382,13 +382,13 @@ function SubCommandButton_OnLeftClick(index)
 				return;
 			end
 			-- if (not IsRealPartyLeader()) then
-			-- 	DisplayInfomation("你当前不是队伍领袖。");
+			-- 	DisplayInfomation("You are not the party leader.");
 			-- else
 			SendChatMessage(UnBotExecuteCommand[index], "PARTY");
 			-- end
 		elseif (UnBotCommandType[index] == 4) then
 			-- if (not IsRealPartyLeader()) then
-			-- 	DisplayInfomation("你当前不是队伍领袖。");
+			-- 	DisplayInfomation("You are not the party leader.");
 			-- else
 			SendChatMessage(UnBotExecuteCommand[index], "PARTY");
 			-- end
